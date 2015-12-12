@@ -2,7 +2,7 @@ language: csharp
 solution: TestClass.sln
 notifications:
 email:
-"tuankiet234/TestTravis"
+"tuankiet234/TestTravis":
 - khanhduyluu@gmail.com
 - tuankiet234@gmail.com
 - ttkk.ben10@yahoo.com.vn
