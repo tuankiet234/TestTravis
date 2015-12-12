@@ -1,11 +1,3 @@
-notifications:
-  email:
-    recipients:
-      - tuankiet234@gmail.com
-      - ttkk.ben10@yahoo.com.vn
-    on_success: [always|never|change] # default: change
-    on_failure: [always|never|change] # default: always
-
 language: csharp
 solution: TestClass.sln
 
@@ -15,3 +7,11 @@ install:
 script:
   - xbuild /p:Configuration=Release TestClass/TestClass.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TestClass/TestClass/bin/Release/TestClass.dll
+  
+notifications:
+email:
+recipients:
+  - tuankiet234@gmail.com
+  - ttkk.ben10@yahoo.com.vn
+on_success: [always|never|change] # default: change
+on_failure: [always|never|change] # default: always
