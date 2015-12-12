@@ -1,14 +1,14 @@
 language: csharp
 solution: TestClass.sln
 
-notifications:
-email:
-on_success: always
-on_failure: always
-
 install:
   - nuget restore TestClass/TestClass.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release TestClass/TestClass.sln
   - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./TestClass/TestClass/bin/Release/TestClass.dll
+  
+notifications:
+email:
+- tuankiet234@gmail.com
+- ttkk.ben10@yahoo.com.vn
