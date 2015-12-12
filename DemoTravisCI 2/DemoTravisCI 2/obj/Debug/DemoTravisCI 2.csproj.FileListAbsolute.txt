@@ -1,0 +1,9 @@
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\DemoTravisCI 2.dll
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\DemoTravisCI 2.pdb
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\Calculator.exe
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\nunit.framework.dll
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\Calculator.pdb
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\bin\Debug\nunit.framework.xml
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\obj\Debug\DemoTravisCI 2.csprojResolveAssemblyReference.cache
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\obj\Debug\DemoTravisCI 2.dll
+F:\Code\DemoTravisCI 2\DemoTravisCI 2\obj\Debug\DemoTravisCI 2.pdb
