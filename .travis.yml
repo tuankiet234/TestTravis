@@ -12,5 +12,5 @@ install:
   - nuget restore DemoTravisCI 2.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Debug DemoTravisCI 2.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DemoTravisCI 2/DemoTravisCI 2/bin/Debug/DemoTravisCI 2.dll
+  - xbuild /p:Configuration=Release DemoTravisCI 2.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./DemoTravisCI 2/DemoTravisCI 2/bin/Release/DemoTravisCI 2.dll
