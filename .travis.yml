@@ -1,11 +1,15 @@
 language: csharp
 solution: TestClass.sln
+
 notifications:
 email:
-"tuankiet234/TestTravis":
+recipients:
 - khanhduyluu@gmail.com
 - tuankiet234@gmail.com
 - ttkk.ben10@yahoo.com.vn
+on_success: [always|never|change]
+on_failure: [always|never|change]
+
 install:
   - nuget restore TestClass/TestClass.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
