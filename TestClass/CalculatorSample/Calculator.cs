@@ -21,7 +21,7 @@ namespace CalculatorSample
             int res = 0;
             for (int i = 0; i < Math.Abs(b); i++)
             {
-                res = Cong(res, b);
+                res = Cong(res, a);
             }
 
             if (b < 0)
