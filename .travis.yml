@@ -13,5 +13,5 @@ email:
 recipients:
   - tuankiet234@gmail.com
   - ttkk.ben10@yahoo.com.vn
-on_success: [always|never|change] # default: change
-on_failure: [always|never|change] # default: always
+on_success: change
+on_failure: always
