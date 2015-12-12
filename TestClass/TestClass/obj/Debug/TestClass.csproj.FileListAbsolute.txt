@@ -7,3 +7,12 @@ F:\Code\TestClass\TestClass\bin\Debug\nunit.framework.xml
 F:\Code\TestClass\TestClass\obj\Debug\TestClass.csprojResolveAssemblyReference.cache
 F:\Code\TestClass\TestClass\obj\Debug\TestClass.dll
 F:\Code\TestClass\TestClass\obj\Debug\TestClass.pdb
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\TestClass.dll
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\TestClass.pdb
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\CalculatorSample.exe
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\nunit.framework.dll
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\CalculatorSample.pdb
+F:\TravisCI\TestTravis\TestClass\TestClass\bin\Debug\nunit.framework.xml
+F:\TravisCI\TestTravis\TestClass\TestClass\obj\Debug\TestClass.csprojResolveAssemblyReference.cache
+F:\TravisCI\TestTravis\TestClass\TestClass\obj\Debug\TestClass.dll
+F:\TravisCI\TestTravis\TestClass\TestClass\obj\Debug\TestClass.pdb
